@@ -6,7 +6,7 @@ I learned to program thanks to laboratoria and my passion for learning.
 
 ### 🤔 About
 -  **Working :**  Web Development :computer: 
--  **Learning :** Angular, UX and UI,  and Flutter . :zap: :fire:	
+-  **Learning :** SEO, Angular, UX, UI, Design . :zap: :fire:	
 -  **Hobbies :** Books :books: | Music :headphones: | movies :🎬
 -  **Ask me about :** Anything!, I'm happy to help :v:
 -  **Fun fact :** I like to play pranks on others, but I don't like being pranked.🤡🥳 
