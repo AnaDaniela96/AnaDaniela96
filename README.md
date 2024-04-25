@@ -25,6 +25,7 @@ I learned to program thanks to laboratoria and my passion for learning.
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&link=https://github.com/LuizCarlosAbbott/)](https://github.com/LuizCarlosAbbott/)
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 <img alt="Figma" src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"/>
+<img alt="Angular" src="https://e7.pngegg.com/pngimages/496/345/png-clipart-website-development-angularjs-application-software-javascript-javascript-icon-angle-triangle.png"/>
 ![Firebase](https://img.shields.io/badge/firebase-ffca28?style=flat&logo=firebase&logoColor=black)  
 
 <!--
