@@ -11,7 +11,12 @@ Welcome to my space.🚀☄️. I'm an internet enthusiast and I really enjoy wr
 -  **Fun fact :** I like to play pranks on others, but I don't like being pranked.🤡🥳 
 -  **Pronouns :** She/Her/Hers :innocent:
 
-  
+## 📫 How to reach me: 
+<h4 align="center">I love to write, I invite you to visit my blog where I write about different topics in Spanish. <h4>
+
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/andradelopez-anadaniela/)
+
+
 ### Technical Skills
 
 [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript&link=https://github.com/LuizCarlosAbbott/)](https://github.com/LuizCarlosAbbott/)
@@ -34,10 +39,5 @@ Me falta agregar los repositorios de mis proyectos y mi perfil de linkedIn
 ## 📫 How to reach me: 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/akhilgkrishnan) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/akhilgkrishnan) [![Twitter](http://i.imgur.com/wWzX9uB.png) Twitter](https://twitter.com/MrAkhilG) [![Facebook](http://i.imgur.com/fep1WsG.png) Facebook](https://facebook.com/akhilgkrishnan9800)
 
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+
 -->
