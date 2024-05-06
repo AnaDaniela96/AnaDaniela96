@@ -1,13 +1,12 @@
-<h1 align="center"> Hello, I'm Daniela Andrade 👋💻🌐 </h1>
-<h3 align="center">  front-end developer </h3> <br>
+<h1 align="center"> Hello world, I'm Daniela Andrade 👋💻🌐 </h1>
+<h3 align="center">  Front-end developer </h3> <br>
 
 Welcome to my space.🚀☄️. I'm an internet enthusiast and I really enjoy writing and participating in collaborative projects.
-I learned to program thanks to laboratoria and my passion for learning.
 
-### 🤔 About
--  **Working :**  Web Development :computer: 
--  **Learning :** SEO, Angular, UX, UI, Design . :zap: :fire:	
--  **Hobbies :** Books :books: | Music :headphones: | movies :🎬
+### 🤔 About me
+-  **Working :** Front End developer :computer: 
+-  **Learning :** SEO, Jest, Angular. :zap: :fire:	
+-  **Hobbies :** Books :books: | Music :headphones: | movies :🎬 | History | knowledge
 -  **Ask me about :** Anything!, I'm happy to help :v:
 -  **Fun fact :** I like to play pranks on others, but I don't like being pranked.🤡🥳 
 -  **Pronouns :** She/Her/Hers :innocent:
