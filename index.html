@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <title>CV</title>
 </head>
@@ -13,12 +14,51 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Hind+Guntur:wght@300;400;500;600;700&display=swap');
 
+    @page {
+        size: letter;
+        margin: 0;
+    }
+
+    @media print {
+        .icon-button {
+            display: none;
+        }
+
+        h1 {
+            font-size: 20px !important;
+        }
+
+        h2 {
+            font-size: 18px !important;
+        }
+
+        h3 {
+            font-size: 16px !important;
+        }
+
+        h4 {
+            font-size: 14px !important;
+        }
+
+        h5 {
+            font-size: 14px !important;
+        }
+
+        h6 {
+            font-size: 13px !important;
+        }
+
+        p,
+        li {
+            font-size: 12px !important;
+        }
+    }
+
     html,
     body {
-        width: 8.5in;
-        height: 11in;
         margin: 0;
         padding: 0;
+        background-color: #f4f1ed;
     }
 
     h1,
@@ -32,23 +72,215 @@
         font-style: normal;
     }
 
+    h1 {
+        font-size: 3em;
+        font-weight: 700;
+    }
+
     p {
         font-family: "Hind Guntur", sans-serif;
         font-weight: 400;
         font-style: normal;
     }
+
+    /* Style button */
+    .icon-button {
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        font-size: inherit;
+    }
+
+    /* Style inside button */
+    .icon-button i {
+        display: inline-block;
+    }
 </style>
 
 <body>
-    <div class="my-4 container">
-        <h1 class="text-center p-2">Ana Daniela Andrade López</h1>
-        <h2 class="text-center ">Front end developer</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="text-right p-2">Jair Servin Aguilar</h1>
+                <h2 class="text-center">Electrical engineer</h2>
+            </div>
+            <div class="col-md-4">
+                <button class="icon-button" type="button">
+                    <i class='bx bxs-share-alt'></i>
+                </button>
+                <button class="icon-button" type="button" onclick="imprimir()">
+                    <i class='bx bxs-printer'></i>
+                </button>
+                <button class="icon-button" type="button">
+                    <i class='bx bxs-download'></i>
+                </button>
+            </div>
+        </div>
+        <hr>
     </div>
-    <p>fkajsdfjaldfs</p>
+    <div class="container">
+        <h3>PROFILE</h3>
+        <p>Experienced Electrical Engineer with over 4 years specializing in the design and validation of cyber-physical
+            system architectures and controls within the automotive and areospace domains. Committed to innovation and
+            excellence, I
+            utilize a systemic, model-based design approach for accurate requirement definition, refinement, and testing
+            throughout the product development process.</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="container">
+                    <h4>CONTACT</h4>
+                    <hr>
+                    <ul>
+                        <li data-type="ubicacion"><i class='bx bx-map'></i> CDMX, México (open to relocation)</li>
+                        <li data-type="telefono"><i class='bx bxs-phone-call'></i> +52 55 2897 0618</li>
+                        <li data-type="correo"><i class='bx bxs-envelope'></i><a
+                                href="mailto:jairservinaguilar@gmail.com">
+                                jairservinaguilar@gmail.com</a></li>
+                        <li><i class='bx bxl-linkedin'></i><a href="df"> jairservinaguilar</a></li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <h4>SKILLS</h4>
+                    <hr>
+                    <ul>
+                        <li>Good communicator</li>
+                        <li>Critical thinker</li>
+                        <li>Self-learner</li>
+                        <li>Teamwork</li>
+                    </ul>
+                </div>
+
+                <div class="container">
+                    <h4>LANGUAGES</h4>
+                    <hr>
+                    <ul>
+                        <li>English</li>
+                        <li>SysML</li>
+                        <li>Python</li>
+                        <li>Matlab</li>
+                        <li>Ladder/SFC for PLC</li>
+                        <li>LaTex</li>
+                    </ul>
+                </div>
+
+                <div class="container">
+                    <h4>INTERESTS</h4>
+                    <hr>
+                    <ul>
+                        <li>Passionate for learning new technologies and tools</li>
+                        <li>AI & Automation technologies</li>
+                        <li>History of philosophy</li>
+                        <li>Communication of knowledge</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <h4>PUBLICATIONS</h4>
+                    <hr>
+                    <ul>
+                        <li><em>“Control de orientación para satélites con compensación de vibraciones” (Master's
+                                thesis).</em></li>
+                        <li><em>"Diseño e implementación de un controlador adaptable de orden fraccionario" (Bachelor's
+                                thesis).</em></li>
+                        <li><em>“Control adaptable de orden fraccionario aplicado a un sistema
+                                hidráulico”</em>(Conference paper at Congreso Nacional de Control Automático. San Luis
+                            Potosí, México, 2018). </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <h4>EXPERIENCE</h4>
+                    <hr>
+                    <h5>Infotainment System Design Verification Engineer at Ford México (through SATVEN).</h5>
+                    <h6>September 2022 - Current</h6>
+                    <ul>
+                        <li>Collaborated in the validation phase of the product development process, esuring the
+                            features
+                            met both quality and performance standars, and enhancing the reliability and user experience
+                            of
+                            vehicle Infotainment systems.</li>
+                        <li>Defined comprehensive test case suites to rigorously validate the functionality of
+                            developing
+                            features against documented requirements.
+                        </li>
+                        <li>Ensured ongoing maintenance and updates of test cases to reflect changes in feature
+                            specifications, improving test coverage and accuracy.
+                        </li>
+                        <li>Developed functional models for the simulation of secondary vehicle features in a Hardware
+                            in
+                            the Loop (HIL) testing environment to validate the correct behavior of the infotainment
+                            system
+                            under real-world conditions.</li>
+                        <li>Contributed to the enhancement of simulation techniques and tools, improving the efficiency
+                            and
+                            effectiveness of the validation process.</li>
+                    </ul>
+                    <h5>Research Assistant at Instituto de Ciencias Nucleares, Universidad Nacional Autónoma de México.
+                    </h5>
+                    <h6>August 2015 - July 2016</h6>
+                    <ul>
+                        <li>Collaborated in the early development phase of a power system for a small satellite for
+                            meteorological data acquisition under variable environmental conditions.</li>
+                        <li>
+                            Developed a custom interface for data acquisition from temperature sensors to ensure
+                            accurate
+                            and real-time meteorological monitoring.
+                        </li>
+                        <li>Designed and manufactured printed circuit boards (PCBs) for the satellite's electronic
+                            systems.
+                        </li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <h4>EDUCATION & ACADEMIC EXPERIENCE</h4>
+                    <hr>
+                    <h5>Masters of Science in Electrical Engineering. Instituto de Ingeniería, Universidad Nacional
+                        Autónoma de México.</h5>
+                    <h6>August 2019 - July 2022</h6>
+                    <ul>
+                        <li>Thesis on the attitude control of low Earth orbit spacecraft, utilizing adaptive control
+                            techniques and disturbance identification methods.</li>
+                        <li>Developed the control strategy from the design to the model-based validation, considering
+                            the satellite dynamics attached to an electromechanical actuator system.</li>
+                    </ul>
+                    <h5>Teacher's Assistant. Facultad de Ingeniería, Universidad Nacional Autónoma de México.</h5>
+                    <h6>August 2018 - July 2019</h6>
+                    <ul>
+                        <li>Performed essential secretarial duties to support the administrative operations of the
+                            Applied Mathematics Department.</li>
+                        <li>Managed the development and maintenance of didactic materials focused on differential
+                            equations, numerical methods, and complex variable mathematics.</li>
+                    </ul>
+                    <h5>Bachelor of Science in Electrical and Electronics Engineering. Facultad de Ingeniería,
+                        Universidad Nacional Autónoma de México. </h5>
+                    <h6>August 2013 - July 2018</h6>
+                    <ul>
+                        <li>Graduated with honors.</li>
+                        <li>Developed a thesis on adaptive control using fractional-order calculus techniques.</li>
+                        <li>Developed the experimental process for the validation of an adaptive control strategy undert
+                            development.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script>
+        function imprimir() {
+            window.print(); // Invocar la función de impresión del navegador
+        }
+    </script>
 </body>
 
 </html>
