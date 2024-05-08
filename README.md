@@ -13,10 +13,14 @@ Welcome to my space.🚀☄️. I'm an internet enthusiast and I really enjoy wr
 
 ## 📫 How to reach me: 
 You can find me on the following social media platforms:
-- **LinkedIn: 🔗:** [Daniela Andrade](https://www.linkedin.com/in/andradelopez-anadaniela/)
-- **Dribbble: 🏀** [Daniela Andrade](https://dribbble.com/DanielaAndrade)
+- **LinkedIn: 🔗:** [My LinkedIn Profile](https://www.linkedin.com/in/andradelopez-anadaniela/)
+- **Dribbble: 🏀** [My Dribble Profile](https://dribbble.com/DanielaAndrade)
 
 <h4 align="center">I love to write, I invite you to visit <a href="https://medium.com/@danielaandrade66">my blog</a> where I write about different topics in Spanish. <h4>
+
+**I love reading and creating content about my favorite books. Follow my profile at [LibrosLibrasLibres](https://www.instagram.com/libroslibreslibras?igsh=b2QyZ3M4M3d5ZWhq)📸**
+
+
 
 ### Technical Skills
 
@@ -33,12 +37,4 @@ You can find me on the following social media platforms:
 <img alt="Angular" src="https://e7.pngegg.com/pngimages/496/345/png-clipart-website-development-angularjs-application-software-javascript-javascript-icon-angle-triangle.png"/>
 ![Firebase](https://img.shields.io/badge/firebase-ffca28?style=flat&logo=firebase&logoColor=black)  
 
-<!--
 
-Me falta agregar los repositorios de mis proyectos y mi perfil de linkedIn
-        
-## 📫 How to reach me: 
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/akhilgkrishnan) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/akhilgkrishnan) [![Twitter](http://i.imgur.com/wWzX9uB.png) Twitter](https://twitter.com/MrAkhilG) [![Facebook](http://i.imgur.com/fep1WsG.png) Facebook](https://facebook.com/akhilgkrishnan9800)
-
-
--->
