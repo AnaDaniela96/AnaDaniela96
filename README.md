@@ -3,7 +3,7 @@
 
 Welcome to my space.🚀☄️. I'm an internet enthusiast and I really enjoy writing and participating in collaborative projects.
 
-### 🤔 About me
+## 🤔 About me
 -  **Working :** Front End developer :computer: 
 -  **Learning :** SEO, Jest, Angular. :zap: :fire:	
 -  **Hobbies :** Books :books: | Music :headphones: | movies :🎬 | History | knowledge
@@ -19,7 +19,8 @@ You can find me on the following social media platforms:
 
 <h4 align="center">I love to write, I invite you to visit <a href="https://medium.com/@danielaandrade66">my blog</a> where I write about different topics in Spanish. <h4>
 
-### Technical Skills
+## Technical Skills 🛠️💻
+I currently work with these tools, but I love learning new things. I am open to getting to know new languages.
 
 [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript&link=https://github.com/LuizCarlosAbbott/)](https://github.com/LuizCarlosAbbott/)
 [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white&link=https://github.com/LuizCarlosAbbott/)](https://github.com/LuizCarlosAbbott/)
