@@ -15,12 +15,9 @@ Welcome to my space.🚀☄️. I'm an internet enthusiast and I really enjoy wr
 You can find me on the following social media platforms:
 - **LinkedIn: 🔗:** [My LinkedIn Profile](https://www.linkedin.com/in/andradelopez-anadaniela/)
 - **Dribbble: 🏀** [My Dribble Profile](https://dribbble.com/DanielaAndrade)
+- **I love reading and creating content about my favorite books. Follow my profile at [LibrosLibrasLibres](https://www.instagram.com/libroslibreslibras?igsh=b2QyZ3M4M3d5ZWhq)📸**
 
 <h4 align="center">I love to write, I invite you to visit <a href="https://medium.com/@danielaandrade66">my blog</a> where I write about different topics in Spanish. <h4>
-
-**I love reading and creating content about my favorite books. Follow my profile at [LibrosLibrasLibres](https://www.instagram.com/libroslibreslibras?igsh=b2QyZ3M4M3d5ZWhq)📸**
-
-
 
 ### Technical Skills
 
