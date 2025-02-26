@@ -1,0 +1,60 @@
+#header-container {
+    background-color: #1a1423;
+    color: #eacdc2;
+    padding-top: 50px;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.title-span {
+    color: #b75d69;
+}
+
+.container-resume {
+  padding-top: 100px;
+}
+
+.resume {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+#contact-container {
+    background-color: #1a1423;
+}
+
+#container-photo {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: start;
+}
+
+.img-container {
+    border-radius: 20px;
+    background-color: #b75d69;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-social-media, #container-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+    color: #eacdc2;
+}
+
+.contact, .social-media {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #eacdc2;
+    text-align: start;
+}
+

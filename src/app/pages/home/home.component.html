@@ -1,0 +1,50 @@
+<app-header></app-header>
+
+<div class="container-fluid" id="header-container">
+    <div class="row">
+        <div class="col-md-7 container-title">
+            <h1 class="title text-start px-4">Front Ent <br> <span class="title-span">Developer.</span></h1>
+        </div>
+        <div class="col-md-5 container-resume">
+            <p class="text-start px-4 resume">
+                Apasionada por la tecnología en especial la intersección entre
+                el diseño y el código. Me gusta crear interfaces creativas,
+                responsivas y fáciles de usar.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="contact-container">
+    <div class="row">
+        <div class="col-md-4" id="container-photo">
+            <div class="img-container mx-4">
+                <img src="assets/daniela-cv-800.png" alt="Daniela-Andrade" class="img-fluid photo-cv">
+            </div>
+        </div>
+        <div class="col-md-3" id="container-contact">
+            <a href="/contacto" class="contact">Contáctame <i class='bx bx-right-arrow-circle'></i></a>
+        </div>
+        <div class="col-md-3" id="container-social-media">
+            <h2>Redes Sociales</h2>
+            <a href="" class="social-media"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="" class="social-media"><i class='bx bxl-github'></i></a>
+            <a href="" class="social-media"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-around">
+        <div class="container-title">
+            <h2 class="text-start px-4">Mis proyectos</h2>
+        </div>
+        <div *ngFor="let card of cards" class="card m-2" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{ card.title }}</h5>
+                <p class="card-text">{{ card.body }}</p>
+                <a [href]="card.link" class="card-link" target="_blank">Ver más</a>
+            </div>
+        </div>
+    </div>
+</div>
