@@ -58,3 +58,130 @@
     text-align: start;
 }
 
+#container-proyects {
+    background-color: #1a1423;
+    padding-top: 150px;
+
+    .container-title {
+        width: 30rem;
+        color: #eacdc2;
+    }
+
+    a {
+        color: #eacdc2;
+    }
+
+    h2 {
+        font-size: 5rem;
+        font-weight: 800;
+        color: #b75d69;
+    }
+
+    .card {
+        background-color: #372549;
+        border-radius: 16px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        color: #eacdc2;
+        text-align: justify;
+    }
+
+    .card-header {
+        border-bottom: dotted;
+
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .circle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #1a1423;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        
+        h6 {
+            font-weight: 700;
+            font-size: .7rem;
+        }
+    }
+}
+
+#container-goal {
+    background-color: #1a1423;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #b75d69;
+    font-size: 3rem;
+}
+
+#container-fluid-skills {
+    background-color: #1a1423;
+    padding-top: 150px;
+    color: #b75d69;
+
+    h2 {
+        font-weight: 800;
+        font-size: 5rem;
+    }
+
+    .container-skills {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-around;
+    }
+
+    .skill {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 770px) {
+    #container-social-media, #container-contact{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: #eacdc2;
+    }
+
+    #container-photo {
+        justify-content: center;
+    }
+
+    #container-proyects {
+        padding-top: 50px;
+    }
+
+    #container-fluid-skills  {
+        padding-top: 30px;
+    }
+
+    .img-container  {
+        height: 350px;
+        width: 350px;
+    }
+  }
+
+  @media (max-width: 426px) {
+    .title, h2 {
+        font-size: 2rem;
+    }
+
+    #container-proyects,  #container-fluid-skills  {
+        h2 {
+            font-size: 2.5rem;
+        }
+    }
+  }
+
+  @media (max-width: 321px) {
+    .contact, .social-media {
+        font-size: 1.5rem;
+    }
+  }

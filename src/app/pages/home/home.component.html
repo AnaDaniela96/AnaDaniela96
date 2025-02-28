@@ -6,7 +6,7 @@
             <h1 class="title text-start px-4">Front Ent <br> <span class="title-span">Developer.</span></h1>
         </div>
         <div class="col-md-5 container-resume">
-            <p class="text-start px-4 resume">
+            <p class="text-end px-4 resume">
                 Apasionada por la tecnología en especial la intersección entre
                 el diseño y el código. Me gusta crear interfaces creativas,
                 responsivas y fáciles de usar.
@@ -26,7 +26,7 @@
             <a href="/contacto" class="contact">Contáctame <i class='bx bx-right-arrow-circle'></i></a>
         </div>
         <div class="col-md-3" id="container-social-media">
-            <h2>Redes Sociales</h2>
+            <h2 class="contact">Redes Sociales</h2>
             <a href="" class="social-media"><i class='bx bxl-instagram-alt'></i></a>
             <a href="" class="social-media"><i class='bx bxl-github'></i></a>
             <a href="" class="social-media"><i class='bx bxl-linkedin-square'></i></a>
@@ -34,17 +34,54 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid" id="container-proyects">
     <div class="d-flex flex-wrap align-items-center justify-content-around">
         <div class="container-title">
             <h2 class="text-start px-4">Mis proyectos</h2>
+            <p class="text-start px-4">Tengo experiencia en diferentes proyectos. Algunos de ellos
+                los realicé en mi primer empleo, otros en el bootcamp donde di mis primeros pasos, algunos experimentando
+                y finalmente aquellos donde sólo lo he hecho por el gusto y la práctica. Te recomiendo visitar mi perfil de 
+                github para ver más a detalle
+            </p>
+            <a class="px-4" href="">Visíta mi perfil de github</a>
         </div>
-        <div *ngFor="let card of cards" class="card m-2" style="width: 18rem;">
+        <div *ngFor="let card of cardsProyects" class="card m-3" style="width: 18rem;">
+            <div class="card-header">
+                <div class="circle">
+                    <h6 class="name">DA</h6>
+                </div>
+                <h3 class="card-title p-2 text-start">{{ card.title }}</h3>
+            </div>
             <div class="card-body">
-                <h5 class="card-title">{{ card.title }}</h5>
+                
                 <p class="card-text">{{ card.body }}</p>
                 <a [href]="card.link" class="card-link" target="_blank">Ver más</a>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="container-goal">
+    <div class="row">
+        <div class="col-md-8">
+            <h2 class="text-start p-4">Busco freelancear, aprender, trabajar en equipo y ayudarte a cumplir tus objetivos</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="container-fluid-skills">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-end px-4 pt-4" id="">Nivel de habilidades</h2>
+            <p class="text-end px-4">cómo desarrolladora web</p>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div *ngFor="let card of cardsHabilities" class="container-skills">
+            <img class="img-fluid skill" src="{{card.src}}" alt="{{card.skill}}">
+            <p class="p-2">{{card.level}}</p>
+            <p class="p-2">{{card.skill}}</p>
         </div>
     </div>
 </div>
