@@ -5,6 +5,19 @@
     color: #eacdc2;
 }
 
+.title {
+    color: #b75d69;
+    font-weight: 800;
+}
+
+#container-social-media {
+    font-size: 3rem;
+}
+
+.social-media {
+    color: #eacdc2;
+}
+
 form {
     background-color: #b75d69;
     border-radius: 20px;

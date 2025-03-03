@@ -1,0 +1,20 @@
+footer {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.container-fluid {
+    background-color: #372549;
+    color: #eacdc2;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+a {
+    color: #eacdc2;
+    font-size: 1rem;
+}
