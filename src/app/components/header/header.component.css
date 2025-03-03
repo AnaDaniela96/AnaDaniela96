@@ -1,13 +1,42 @@
-.container-fluid {
-    /* background-color: #1a1423; */
+.navbar-toggler {
+    border: none;
 }
 
-.navbar-collapse {
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0 !important
+}
+
+.navbar-style {
+    padding-left: 20%;
+    font-size: 1.3em;
+}
+
+.nav-link i {
+    margin-left: 8px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar {
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+
+.nav-item.dropdown .dropdown-toggle::after {
+    display: none;
+}
+
+/* .navbar-collapse {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .navbar-brand {
     color: #eacdc2;

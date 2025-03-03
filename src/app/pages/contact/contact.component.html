@@ -16,15 +16,19 @@
         </div>
         <div class="col-md-6">
            <div class="d-flex flex-column align-items-center">
-            <form class="mx-4">
+            <form class="mx-4" (submit)="sendEmail($event)">
                 <div class="m-3">
-                    <label for="InputEmail1" class="form-label pt-4">Correo Electrónico</label>
-                    <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">No compartire tu información con nadie.</div>
+                    <label for="name" class="form-label pt-4">Nombre</label>
+                    <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="m-3">
-                    <label for="inputTextarea" class="form-label pt-2">Escribe tu mensaje:</label>
-                    <input type="textarea" class="form-control" id="inputTextarea" rows="4" cols="50">
+                    <label for="email" class="form-label pt-4">Correo Electrónico</label>
+                    <input type="email" name="email" class="form-control" id="InputEmail1" required>
+                    <div id="email" class="form-text">No compartire tu información con nadie.</div>
+                </div>
+                <div class="m-3">
+                    <label for="message" class="form-label pt-2">Escribe tu mensaje:</label>
+                    <input type="textarea" name="message" class="form-control" id="message" rows="4" cols="50">
                 </div>
                 <button type="submit" class="btn btn-secundary m-4">Enviar</button>
             </form>
@@ -32,3 +36,5 @@
         </div>
     </div>
 </main>
+
+<app-footer></app-footer>
