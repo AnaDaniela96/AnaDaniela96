@@ -31,20 +31,13 @@
     display: none;
 }
 
-/* .navbar-collapse {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-} */
-
-.navbar-brand {
+.navbar-brand, .bx-menu {
     color: #eacdc2;
 }
 
 li a {
     color: #eacdc2;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 100;
 }
 

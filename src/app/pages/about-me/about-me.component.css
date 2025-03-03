@@ -129,20 +129,6 @@ li {
     }
 }
 
-/* .timeline-item::after {
-    content: '\f111';
-    
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    right: -10px;
-    background-color: white;
-    border: 4px solid #007bff;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-} */
-
 .left {
     /* left: 0; */
     text-align: right;
@@ -155,8 +141,85 @@ li {
 
 .timeline-item .content {
     padding: 10px;
-    background: #f8f9fa;
+    /* background: #f8f9fa; */
     position: relative;
     border-radius: 6px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1025px) {
+    iframe {
+        width: 460px;
+        height: 315px; 
+    }
+}
+
+@media (max-width: 769px) {
+    #container-presentation {
+        padding-top: 20px;
+    }
+
+    #text-title {
+        font-size: 3rem;
+    }
+
+    .description-text, .text-title  {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .proyect, ul li {
+        font-size: 1.2rem;
+    }
+
+    iframe {
+        width: 360px;
+        height: 215px; 
+    }
+
+    #container-museums {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .timeline::after {
+        display: none;
+    } 
+
+    .timeline-item {
+        width: 100%;
+    }
+    
+    .left {
+        right: 10%;
+        text-align: right;
+    }
+    
+    .right {
+        left: 10%;
+        text-align: left;
+    } 
+}
+
+@media (max-width: 426px) {
+    .left {
+        right: 0%;
+        text-align: right;
+    }
+    
+    .right {
+        left: 0%;
+        text-align: left;
+    } 
+}
+
+@media (max-width: 321px) {
+    .proyects {
+        height: 400px;
+    }
+
+    iframe {
+        width: 260px;
+        height: 260px; 
+    }
 }
