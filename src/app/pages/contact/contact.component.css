@@ -1,0 +1,22 @@
+.container-fluid {
+    background-color: #1a1423;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #eacdc2;
+}
+
+form {
+    background-color: #b75d69;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#emailHelp {
+    color:#eacdc2;
+}
+
+.btn-secundary {
+    background-color: #eacdc2;
+    color: #1a1423;
+}
