@@ -1,0 +1,162 @@
+#container-presentation {
+    padding-top: 100px;
+    background-color: #774c60;
+    color: #eacdc2;
+
+    .hr {
+        color: #eacdc2;
+        border: solid 2px;
+    }
+
+    .text-highlight {
+        font-size: 1.2rem;
+        font-weight: 100;
+        text-decoration: none;
+    }
+
+    a {
+        color: #eacdc2;
+    }
+
+    a:hover {
+        font-weight: 900;
+    }
+}
+
+.span {
+    color: #b75d69;
+}
+
+#text-title {
+    font-size: 6rem;
+    font-weight: 900;
+    color: #eacdc2;
+}
+
+#container-description-text{
+    padding-top: 60px;
+}
+
+.description-text {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+
+.paragraph {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+#container-main {
+    background-color: #eacdc2;
+    color: #1a1423;
+}
+
+.proyects {
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+.proyect {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #1a1423;
+}
+
+li {
+    list-style: none;
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #1a1423;
+}
+
+#container-museums {
+    background-color: #774c60;
+    color: #eacdc2;
+    font-size: 2rem;
+    line-height: 2.3rem;
+}
+
+/* Estilos para la línea del tiempo */
+.text-title {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+    color: #1a1423;
+    padding-bottom: 50px;
+}
+
+#container-timeline {
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.timeline {
+    position: relative;
+    margin: auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #774c60;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+} 
+
+.timeline-item {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: #1a1423 !important; 
+    color:#eacdc2;
+
+    a {
+        color: #eacdc2;
+    }
+}
+
+/* .timeline-item::after {
+    content: '\f111';
+    
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: -10px;
+    background-color: white;
+    border: 4px solid #007bff;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+} */
+
+.left {
+    /* left: 0; */
+    text-align: right;
+}
+
+.right {
+    left: 50%;
+    text-align: left;
+} 
+
+.timeline-item .content {
+    padding: 10px;
+    background: #f8f9fa;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
