@@ -7,13 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
 </head>
 <title>CV</title>
 </head>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Hind+Guntur:wght@300;400;500;600;700&display=swap');
+    /* @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Hind+Guntur:wght@300;400;500;600;700&display=swap'); */
 
     @page {
         size: letter;
@@ -26,35 +27,35 @@
         }
 
         h1 {
-            font-size: 16px !important;
+            font-size: 14px !important;
         }
 
         h2 {
-            font-size: 16px !important;
+            font-size: 14px !important;
             font-weight: 100 !important;
         }
 
         h3 {
-            font-size: 14px !important;
+            font-size: 12px !important;
         }
 
         h4 {
-            font-size: 14px !important;
+            font-size: 12px !important;
             font-weight: 100 !important;
         }
 
         h5 {
-            font-size: 13px !important;
+            font-size: 11px !important;
         }
 
         h6 {
-            font-size: 13px !important;
+            font-size: 11px !important;
             font-weight: 100 !important;
         }
 
         p,
         li {
-            font-size: 12px !important;
+            font-size: 10px !important;
         }
 
         .container-presentation {
@@ -127,7 +128,7 @@
     h4,
     h5,
     h6 {
-        font-family: "Antic Didone", serif;
+        font-family: "Quicksand", serif;
         font-weight: 900;
         font-style: normal;
     }
@@ -137,8 +138,9 @@
         font-weight: 700;
     }
 
-    p {
-        font-family: "Hind Guntur", sans-serif;
+    p,
+    ul li {
+        font-family: "Quicksand", serif;
         font-weight: 400;
         font-style: normal;
     }
@@ -163,11 +165,13 @@
 </style>
 
 <body>
-    <div class="container container-presentation">
+    <!-- Spanish version -->
+    <!-- <div class="container container-presentation">
         <div class="row">
             <div class="col-md-8">
                 <h1 class="text-right">Ana Daniela Andrade López</h1>
                 <h2 class="text-right">Front End Developer</h2>
+                <p class="text-right"><a href="https://ana-daniela96.vercel.app/home">https://ana-daniela96.vercel.app/home</a></p>
             </div>
             <div class="col-md-4 my-3">
                 <button class="icon-button" type="button" id="copyButton">
@@ -185,13 +189,13 @@
     </div>
     <div class="container container-profile">
         <h3>PERFIL</h3>
-        <p>Soy desarrolladora front-end con experiencia en JavaScript, HTML y CSS los cuales he aplicado en la
-            creación de sitios web responsivos. Tengo un año de experiencia trabajando con Angular y me gusta usar
-            librerías como
-            Boostrap. Actualmente estoy aprendiendo a consultar bases de datos en SQL y SEO para búsquedas avanzadas.
-            Estudié Historia, pero descubrí en el código una profesión retadora que
-            me motiva todos los días. Mi dedicación y pasión por continuar aprendiendo me motivan a incorporarme en
-            alguna compañía con la cual comparta valores como el trabajo en equipo y la práctica de metodologías agiles.
+        <p>Soy desarrolladora front-end con dos años de experiencia en JavaScript, HTML y CSS, creando sitios web
+            responsivos y accesibles. He trabajado con Angular y disfruto usar librerías como Bootstrap para optimizar
+            el desarrollo. Actualmente, amplío mis habilidades en bases de datos SQL y SEO para búsquedas avanzadas.
+
+            Estudié Historia, pero encontré en el código una profesión desafiante que me motiva cada día. Mi pasión por
+            el aprendizaje constante y la mejora continua me impulsa a buscar oportunidades en empresas donde se valore
+            el trabajo en equipo y el uso de metodologías ágiles.
         </p>
     </div>
 
@@ -201,16 +205,20 @@
                 <div class="container">
                     <h4>CONTACTO</h4>
                     <hr>
-                    <p data-type="ubicacion"><i class='bx bx-map'></i> CDMX, México<p>
-                    <p data-type="telefono"><i class='bx bxs-phone-call'></i> +52 56 3493 9956<p>
-                    <p data-type="correo"><i class='bx bxs-envelope'></i><a
-                            href="mailto:andradelopezdaniela@gmail.com">
-                            andradelopezdaniela@gmail.com</a><p>
-                   <p data-type="contact"><i class='bx bxl-github'></i><a href="https://github.com/AnaDaniela96"
-                            target="_blank"> AnaDaniela96</a><p>
-                    <p data-type="contact"><i class='bx bxl-linkedin'></i><a href="https://www.linkedin.com/in/andradelopez-anadaniela/"
-                            target="_blank">
-                            andradelopez-anadaniela/</a><p>
+                    <p data-type="ubicacion"><i class='bx bx-map'></i> CDMX, México
+                    <p>
+                    <p data-type="telefono"><i class='bx bxs-phone-call'></i> +52 56 3493 9956
+                    <p>
+                    <p data-type="correo"><i class='bx bxs-envelope'></i><a href="mailto:andradelopezdaniela@gmail.com">
+                            andradelopezdaniela@gmail.com</a>
+                    <p>
+                    <p data-type="contact"><i class='bx bxl-github'></i><a href="https://github.com/AnaDaniela96"
+                            target="_blank"> AnaDaniela96</a>
+                    <p>
+                    <p data-type="contact"><i class='bx bxl-linkedin'></i><a
+                            href="https://www.linkedin.com/in/andradelopez-anadaniela/" target="_blank">
+                            andradelopez-anadaniela/</a>
+                    <p>
                 </div>
                 <div class="container">
                     <h4>HABILIDADES</h4>
@@ -221,8 +229,7 @@
                         <li>Autodidacta</li>
                         <li>Creativa</li>
                         <li>Metodologías Ágiles</li>
-                        <li>Inglés A1</li>
-                        <li>Francés B1</li>
+                        <li>Inglés</li>
                     </ul>
                 </div>
 
@@ -233,7 +240,7 @@
                     <p><i class='bx bxl-javascript'></i>JavaScript</p>
                     <p><i class='bx bxl-css3'></i>CCS</p>
                     <p><i class='bx bxl-angular'></i>Angular</p>
-                    <p><i class='bx bxl-bootstrap'></i>bootstrap</p>
+                    <p><i class='bx bxl-bootstrap'></i>Bootstrap</p>
                     <p><i class='bx bxl-nodejs'></i>Nodejs</p>
                     <p><i class='bx bxl-figma'></i>Figma</p>
                     <p><i class='bx bxl-git'></i>Git</p>
@@ -269,20 +276,18 @@
                     <h5>Front End Developer en Etrusca Comercial</h6>
                         <h6>Enero 2023 - Actualmente</h6>
                         <ul>
-                            <li>Adaptación de una plantilla utilizando HTML, CSS y Javascript para crear una landing
-                                page corporativa.
+                            <li>Automatización de procesos para generar diplomas de cursos y seguimiento por correo electrónico.
                             </li>
                             <li>Mantenimiento y mejora continua del sitio web corporativo, implementando buenas
                                 prácticas y documentando el trabajo realizado.
                             </li>
-                            <li>Desarrollo de un portal para la impresión de etiquetas de precios de productos en
+                            <li>Desarrollo de portal para la impresión de etiquetas de precios de productos en
                                 sucursales, utilizando consultas de API, Bootstrap y SQL.
                             </li>
-                            <li>Creación de un proyecto utilizando Angular para visualizar fichas técnicas, realizando
-                                peticiones a través de fetch API y garantizando un diseño responsivo.</li>
-                            <li>Diseño y maquetación de una landing page para una sublínea de productos de la empresa.
+                            <li>Proyectos en Angular: Fichas técnicas de productos internos.</li>
+                            <li>Diseño y maquetación de landing page.
                             </li>
-                            <li>Desarrollo de un formulario para la captura de datos y la prospección de clientes.
+                            <li>Desarrollo de formularios enfocados en prospección de clientes.
                             </li>
                             <li>Colaboración en la adaptación de OSTicket, un servicio de tickets implementado en la
                                 empresa para el seguimiento de incidencias.
@@ -318,8 +323,10 @@
                 <div class="container">
                     <h4>EDUCACIÓN</h4>
                     <hr>
+                    <h5>Ingenieria en Ciencias Computacionales</h5>
+                    <h6>Enero 2025 - Julio 2028</h6>
                     <h5>Diplomado en Marketing digital, e-Commerce & Marketplaces Universidad del Valle de México</h5>
-                    <h6>August 2019 - July 2022</h6>
+                    <h6>Agosto 2019 - Julio 2022</h6>
                     <p class="text-none">Durante mi experiencia en el diplomado, adquirí habilidades en la promoción de
                         productos y servicios en línea, la gestión de campañas publicitarias en diferentes plataformas y
                         la optimización de estrategias para aumentar la visibilidad y las ventas en marketplaces.
@@ -336,17 +343,216 @@
                         para crear aplicaciones web dinámicas y escalables. Además, desarrollé habilidades para
                         colaborar en equipos multidisciplinarios y resolver problemas complejos de manera eficiente.</p>
                     <h5>Licenciatura en Historia Universidad Nacional Autónoma de México</h5>
-                    <h6>August 2016 - July 2021</h6>
+                    <h6>Agosto 2016 - Julio 2021</h6>
                     <p class="text-none">Mi formación en Historia en la UNAM me brindó una comprensión
                         profunda de los procesos históricos, la capacidad para analizar y sintetizar información
                         compleja, y la habilidad para comunicar de manera efectiva ideas y argumentos. Adquirí
                         habilidades de investigación y análisis crítico, así como la capacidad para contextualizar
-                        eventos históricos dentro de un marco más amplio.</p>
+                        eventos históricos dentro de un marco más amplio.</p> 
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- English version -->
+    <div class="container container-presentation">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="text-right">Ana Daniela Andrade López</h1>
+                <h2 class="text-right">Front End Developer</h2>
+                <p class="text-right"><a
+                        href="https://ana-daniela96.vercel.app/home">https://ana-daniela96.vercel.app/home</a></p>
+            </div>
+            <div class="col-md-4 my-3">
+                <button class="icon-button" type="button" id="copyButton">
+                    <i class='bx bxs bxs-share-alt'></i>
+                </button>
+                <button class="icon-button" type="button" onclick="imprimir()">
+                    <i class='bx bxs bxs-printer'></i>
+                </button>
+                <button class="icon-button" type="button" id="downloadButton">
+                    <i class='bx bxs bxs-download'></i>
+                </button>
+            </div>
+        </div>
+        <hr class="hr">
+    </div>
+    <div class="container container-profile">
+        <h3>PROFILE</h3>
+        <p>I am a front-end developer with two years of experience in JavaScript, HTML, and CSS, creating responsive and
+            accessible websites. I have worked with Angular and enjoy using libraries like Bootstrap to optimize
+            development. Currently, I am expanding my skills in SQL databases and SEO for advanced searches.
+
+            I studied History, but I found in coding a challenging profession that motivates me every day. My passion
+            for continuous learning and self-improvement drives me to seek opportunities in companies that value
+            teamwork and agile methodologies.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 container-right">
+                <div class="container">
+                    <h4>CONTACT</h4>
+                    <hr>
+                    <p data-type="ubicacion"><i class='bx bx-map'></i> Mexico City, Mexico
+                    <p>
+                    <p data-type="telefono"><i class='bx bxs-phone-call'></i> +52 56 3493 9956
+                    <p>
+                    <p data-type="correo"><i class='bx bxs-envelope'></i><a href="mailto:andradelopezdaniela@gmail.com">
+                            andradelopezdaniela@gmail.com</a>
+                    <p>
+                    <p data-type="contact"><i class='bx bxl-github'></i><a href="https://github.com/AnaDaniela96"
+                            target="_blank"> AnaDaniela96</a>
+                    <p>
+                    <p data-type="contact"><i class='bx bxl-linkedin'></i><a
+                            href="https://www.linkedin.com/in/andradelopez-anadaniela/" target="_blank">
+                            andradelopez-anadaniela/</a>
+                    <p>
+                </div>
+                <div class="container">
+                    <h4>SKILLS</h4>
+                    <hr>
+                    <ul>
+                        <li>Effective communication</li>
+                        <li>Analytical thinking</li>
+                        <li>Self-taught</li>
+                        <li>Creativity</li>
+                        <li>Agile methodologies</li>
+                        <li>English proficiency</li>
+                    </ul>
+                </div>
+
+                <div class="container">
+                    <h4>TOOLS</h4>
+                    <hr>
+                    <p><i class='bx bxl-html5'></i>HTML5</p>
+                    <p><i class='bx bxl-javascript'></i>JavaScript</p>
+                    <p><i class='bx bxl-css3'></i>CCS</p>
+                    <p><i class='bx bxl-angular'></i>Angular</p>
+                    <p><i class='bx bxl-bootstrap'></i>Bootstrap</p>
+                    <p><i class='bx bxl-nodejs'></i>Nodejs</p>
+                    <p><i class='bx bxl-figma'></i>Figma</p>
+                    <p><i class='bx bxl-git'></i>Git</p>
+                    <p><i><i class='bx bxl-github'></i>GitHub</i></p>
+                </div>
+
+                <div class="container">
+                    <h4>INTERESTS</h4>
+                    <hr>
+                    <ul>
+                        <li>Digital Marketing and SEO</li>
+                        <li>AI and automation</li>
+                        <li>History of knowledge and technolog</li>
+                        <li>Organizational methodologies</li>
+                        <li>Personal growth</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <h4>HOBBIES</h4>
+                    <hr>
+                    <ul>
+                        <li>Running and walking</li>
+                        <li>Reading</li>
+                        <li>Writing</li>
+                        <li>Coffee</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8 container-left">
+                <div class="container">
+                    <h4>EXPERIENCE</h4>
+                    <hr>
+                    <h5>Front End Developer at Etrusca Comercial</h6>
+                        <h6>January 2023 - Presente</h6>
+                        <ul>
+                            <li>Automated processes for generating course diplomas and email follow-ups.
+                            </li>
+                            <li>Maintained and improved the corporate website, implementing best practices and
+                                documenting work.
+                            </li>
+                            <li>Desarrollo de portal para la impresión de etiquetas de precios de productos en
+                                sucursales, utilizando consultas de API, Bootstrap y SQL.
+                            </li>
+                            <li>Developed a portal for printing product price tags in stores, using API queries,
+                                Bootstrap, and SQL.
+                            </li>
+                            <li>
+                                Worked on Angular projects, such as internal product technical sheets.
+                            </li>
+                            <li>
+                                Designed and developed landing pages.
+                            </li>
+                            <li>
+                                Created customer prospecting forms.
+                            </li>
+                            <li>
+                                Collaborated in adapting OSTicket, a ticketing service implemented in the company for incident tracking.
+                            </li>
+                        </ul>
+                        <h5>Barista at Volador Café</h5>
+                        <h6>August 2020 - July 2022</h6>
+                        <ul>
+                            <li>
+                                Provided customer service in a high-demand coffee shop environment.
+                            </li>
+                            <li>
+                                Supervised and trained staff to ensure quality service.
+                            </li>
+                            <li>
+                                Developed soft skills, including personal growth, effective communication, and emotional management under stress.
+                            </li>
+                            <li>
+                                Practiced and improved public speaking skills to interact with customers and colleagues.
+                            </li>
+                        </ul>
+                        <h5>Technical Support at SOLEGE</h5>
+                        <h6>August 2018 - July 2020</h6>
+                        <ul>
+                            <li>
+                                Provided technical support to customers to resolve software and hardware issues.
+                            </li>
+                            <li>
+                                Installed and configured programs and software packages according to customer needs.
+                            </li>
+                            <li>
+                                Performed regular maintenance and cleaning of software and hardware to ensure optimal performance.
+                            </li>
+                        </ul>
+                </div>
+                <div class="container">
+                    <h4>EDUCATION</h4>
+                    <hr>
+                    <h5>Bachelor's Degree in Computational Sciences</h5>
+                    <h6>Currently</h6>
+                    <h5>Diplomado en Marketing digital, e-Commerce & Marketplaces Universidad del Valle de México</h5>
+                    <h6>August 2019 - July 2022</h6>
+                    <!-- <p class="text-none">Durante mi experiencia en el diplomado, adquirí habilidades en la promoción de
+                        productos y servicios en línea, la gestión de campañas publicitarias en diferentes plataformas y
+                        la optimización de estrategias para aumentar la visibilidad y las ventas en marketplaces.
+                        Desarrollé una comprensión profunda del comportamiento del consumidor en entornos digitales y la
+                        capacidad para adaptar estrategias según las tendencias del mercado.</p> -->
+
+                    <h5>Front End Development Certification – Laboratoria</h5>
+                    <h6>July 2022 - December 2022</h6>
+                    <!-- <p class="text-none">Durante mi certificación en el bootcamp de Desarrollo Frontend en Laboratoria,
+                        obtuve habilidades
+                        sólidas en HTML, CSS y JavaScript, así como experiencia práctica en el desarrollo de interfaces
+                        de usuario
+                        interactivas y responsivas. Aprendí a utilizar frameworks y herramientas modernas como React.js
+                        para crear aplicaciones web dinámicas y escalables. Además, desarrollé habilidades para
+                        colaborar en equipos multidisciplinarios y resolver problemas complejos de manera eficiente.</p> -->
+                    <h5>Bachelor's Degree in History – Universidad Nacional Autónoma de México</h5>
+                    <h6>August 2016 - July 2021</h6>
+                    <!-- <p class="text-none">Mi formación en Historia en la UNAM me brindó una comprensión
+                        profunda de los procesos históricos, la capacidad para analizar y sintetizar información
+                        compleja, y la habilidad para comunicar de manera efectiva ideas y argumentos. Adquirí
+                        habilidades de investigación y análisis crítico, así como la capacidad para contextualizar
+                        eventos históricos dentro de un marco más amplio.</p>  -->
                 </div>
             </div>
         </div>
     </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
