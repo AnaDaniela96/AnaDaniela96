@@ -12,6 +12,7 @@ Welcome to my space.🚀☄️. I'm an internet enthusiast and I really enjoy wr
 -  **Pronouns :** She/Her/Hers :innocent:
 
 ## 📫 How to reach me: 
+You can visit my portafolio: [Daniela DEV](https://ana-daniela96.vercel.app/home)
 You can find me on the following social media platforms:
 - **LinkedIn: 🔗:** [My LinkedIn Profile](https://www.linkedin.com/in/andradelopez-anadaniela/)
 - **Dribbble: 🏀** [My Dribble Profile](https://dribbble.com/DanielaAndrade)
@@ -27,7 +28,7 @@ I currently work with these tools, but I love learning new things. I am open to 
 |-------------------|----------------------------------------------|
 | Languages         | HTML, CSS, JavaScript                        |
 | Testing           | Jest                                         |
-| Frameworks        | React, Angular, Vue                          |
+| Frameworks        | React, Angular, Vue, LIT                     |
 | Preprocessors     | Sass, Less, Stylus                           |
 | Package Managers  | npm, Yarn                                    |
 | Bundlers          | Webpack                                      |
