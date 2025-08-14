@@ -3,6 +3,8 @@
 
 ## **** ESTOY ACTUALIZANDO MI PERFIL PORQUE HAN CAMBIADO ALGUNAS COSAS ******
 
+Mientras puedes leer lo que ya esta, pero planeo ponerlo en español para documentar código en mi lengua materna.
+
 Welcome to my space.🚀☄️. I'm an internet enthusiast and I really enjoy writing and participating in collaborative projects.
 
 ## 🤔 About me
