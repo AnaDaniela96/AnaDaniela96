@@ -1,89 +1,175 @@
-<app-header backGroundColor="#1a1423"></app-header>
+<app-header backGroundColor="#0F0F10"></app-header>
 
+<!-- HERO -->
 <div class="container-fluid" id="header-container">
-    <div class="row">
-        <div class="col-md-7 container-title">
-            <h1 class="title text-start px-4">Front End <br> <span class="title-span">Developer.</span></h1>
-        </div>
-        <div class="col-md-5 container-resume">
-            <p class="text-end px-4 resume">
-                Apasionada por la tecnología en especial la intersección entre
-                el diseño y el código. Me gusta crear interfaces creativas,
-                responsivas y fáciles de usar.
-            </p>
-        </div>
+  <div class="row">
+    <div class="col-md-7 container-title">
+      <h1 class="title text-start px-4">
+        Construyo, pienso y creo <br>
+        <span class="title-span">soluciones digitales.</span>
+      </h1>
     </div>
+
+    <div class="col-md-5 container-resume">
+      <p class="text-end px-4 resume">
+        Este es un espacio donde conecto tecnología, ideas y proceso.
+        Aquí comparto lo que construyo como desarrolladora, lo que pienso
+        en voz alta y los proyectos que estoy convirtiendo en algo real.
+      </p>
+    </div>
+  </div>
 </div>
 
+<!-- HERO / FOTO / CTA / REDES -->
 <div class="container-fluid" id="contact-container">
-    <div class="row">
-        <div class="col-md-4" id="container-photo">
-            <div class="img-container mx-4">
-                <img src="assets/daniela-cv-800.png" alt="Daniela-Andrade" class="img-fluid photo-cv">
-            </div>
-        </div>
-        <div class="col-md-3" id="container-contact">
-            <a href="/contact" class="contact">Contáctame <i class='bx bx-right-arrow-circle'></i></a>
-        </div>
-        <div class="col-md-3" id="container-social-media">
-            <h2 class="contact">Redes Sociales</h2>
-            <a href="https://www.instagram.com/androideanadaniela/" target="_blank" class="social-media"><i class='bx bxl-instagram-alt'></i></a>
-            <a href="https://github.com/AnaDaniela96" target="_blank" class="social-media"><i class='bx bxl-github'></i></a>
-            <a href="linkedin.com/in/andradelopez-anadaniela/" target="_blank" class="social-media"><i class='bx bxl-linkedin-square'></i></a>
-        </div>
+  <div class="row align-items-end">
+    <div class="col-md-4" id="container-photo">
+      <div class="img-container mx-4">
+        <img src="assets/daniela-cv-800.png" alt="Daniela Andrade" class="img-fluid photo-cv">
+      </div>
     </div>
+
+    <div class="col-md-4" id="container-contact">
+      <div class="cta-group">
+        <a href="/about" class="contact primary-cta">
+          Explora <i class='bx bx-right-arrow-circle'></i>
+        </a>
+        <a href="/contact" class="secondary-cta">
+          ¿Crees que puedo ayudarte? Contáctame
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-4" id="container-social-media">
+      <div class="social-group">
+        <h2 class="contact social-title">Redes</h2>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/androideanadaniela/" target="_blank" class="social-media" rel="noopener noreferrer">
+            <i class='bx bxl-instagram-alt'></i>
+          </a>
+          <a href="https://github.com/AnaDaniela96" target="_blank" class="social-media" rel="noopener noreferrer">
+            <i class='bx bxl-github'></i>
+          </a>
+          <a href="https://linkedin.com/in/andradelopez-anadaniela/" target="_blank" class="social-media" rel="noopener noreferrer">
+            <i class='bx bxl-linkedin-square'></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
+<!-- EXPLORA -->
+<div class="container-fluid" id="container-explore">
+  <div class="row">
+    <div class="col-md-5">
+      <h2 class="text-start px-4 section-title">Qué puedes encontrar aquí</h2>
+    </div>
+
+    <div class="col-md-7">
+      <p class="text-start px-4 explore-text">
+        Este no es solo un portafolio. Es un espacio donde reúno mis
+        proyectos de desarrollo, mi proceso creativo, el blog, el podcast
+        y las ideas que voy construyendo en público.
+      </p>
+
+      <p class="text-start px-4 explore-text">
+        Si algo de esto conecta contigo, quédate.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- PROYECTOS -->
 <div class="container-fluid" id="container-proyects">
-    <div class="d-flex flex-wrap align-items-center justify-content-around">
-        <div class="container-title">
-            <h2 class="text-start px-4">Mis proyectos</h2>
-            <p class="text-start px-4">Tengo experiencia en diferentes proyectos. Algunos de ellos
-                los realicé en mi primer empleo, otros en el bootcamp donde di mis primeros pasos, algunos experimentando
-                y finalmente aquellos donde sólo lo he hecho por el gusto y la práctica. Te recomiendo visitar mi perfil de 
-                github para ver más a detalle
-            </p>
-            <a class="px-4" href="">Visíta mi perfil de github</a>
-        </div>
-        <div *ngFor="let card of cardsProyects" class="card m-3" style="width: 18rem;">
-            <div class="card-header">
-                <div class="circle">
-                    <h6 class="name">DA</h6>
-                </div>
-                <h3 class="card-title p-2 text-start">{{ card.title }}</h3>
-            </div>
-            <div class="card-body">
-                
-                <p class="card-text">{{ card.body }}</p>
-                <a [href]="card.link" class="card-link" target="_blank">Ver más</a>
-            </div>
-        </div>
+  <div class="d-flex flex-wrap align-items-start justify-content-around">
+    <div class="container-title">
+      <h2 class="text-start px-4">Lo que he construido</h2>
+
+      <p class="text-start px-4">
+        Aquí reúno proyectos que he desarrollado en distintos momentos:
+        desde mis primeros pasos en frontend hasta trabajos más estructurados,
+        experimentos personales y sistemas que sigo construyendo para aprender,
+        probar ideas y convertirlas en soluciones reales.
+      </p>
+
+      <p class="text-start px-4">
+        Si quieres ver más a detalle mi proceso técnico, también puedes visitar mi GitHub.
+      </p>
+
+      <a class="px-4 project-link" href="https://github.com/AnaDaniela96" target="_blank" rel="noopener noreferrer">
+        Visita mi perfil de GitHub
+      </a>
     </div>
+
+    <div *ngFor="let card of cardsProyects" class="card m-3 project-card" style="width: 18rem;">
+      <div class="card-header">
+        <div class="circle">
+          <h6 class="name">DA</h6>
+        </div>
+        <h3 class="card-title p-2 text-start">{{ card.title }}</h3>
+      </div>
+
+      <div class="card-body">
+        <p class="card-text">{{ card.body }}</p>
+        <a [href]="card.link" class="card-link" target="_blank" rel="noopener noreferrer">Ver más</a>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="container-fluid" id="container-goal">
-    <div class="row">
-        <div class="col-md-8">
-            <h2 class="text-start p-4">Busco freelancear, aprender, trabajar en equipo y ayudarte a cumplir tus objetivos</h2>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid" id="container-fluid-skills">
-    <div class="row">
-        <div class="col-md-12">
-            <h2 class="text-end px-4 pt-4" id="">Nivel de habilidades</h2>
-            <p class="text-end px-4">cómo desarrolladora web</p>
-        </div>
-    </div>
-
+<!-- EN QUÉ ESTOY -->
+<div class="container-fluid" id="container-focus">
+  <div class="row">
     <div class="col-md-12">
-        <div *ngFor="let card of cardsHabilities" class="container-skills">
-            <img class="img-fluid skill" src="{{card.src}}" alt="{{card.skill}}">
-            <p class="p-2">{{card.level}}</p>
-            <p class="p-2">{{card.skill}}</p>
-        </div>
+      <h2 class="text-end px-4 pt-4">En qué estoy enfocada</h2>
+      <p class="text-end px-4 focus-subtitle">lo que estoy construyendo ahora</p>
     </div>
+  </div>
+
+  <div class="row px-3 pb-5">
+    <div class="col-md-4 mb-4">
+      <div class="focus-card h-100">
+        <h3>Desarrollo frontend</h3>
+        <p>
+          Interfaces funcionales, componentes reutilizables y experiencias
+          web claras, responsivas y bien estructuradas.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="focus-card h-100">
+        <h3>Soluciones digitales</h3>
+        <p>
+          Proyectos donde el desarrollo responde a necesidades reales,
+          no solo a lo visual. Me interesa construir con intención.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="focus-card h-100">
+        <h3>Ideas y contenido</h3>
+        <p>
+          Un espacio para escribir, grabar y pensar en público sobre
+          tecnología, cultura, proceso y las cosas que voy aprendiendo.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- COLABORACIÓN -->
+<div class="container-fluid" id="container-goal">
+  <div class="row">
+    <div class="col-md-10">
+      <h2 class="text-start p-4">
+        Si estás construyendo algo y crees que puedo aportar desde el desarrollo,
+        la estructura o la comunicación digital, hablemos.
+      </h2>
+    </div>
+  </div>
 </div>
 
 <app-footer></app-footer>

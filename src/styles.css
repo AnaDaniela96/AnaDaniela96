@@ -5,3 +5,13 @@ body {
 .text-justify {
     text-align: justify;
 }
+
+:root {
+  --bg-main: #0f0f10;
+  --bg-section: #16181d;
+  --text-main: #f3e9e2;
+  --text-soft: #d7c7bd;
+  --accent-primary: #6ea8fe;
+  --accent-secondary: #c97b84;
+  --card-bg: #22252c;
+}
