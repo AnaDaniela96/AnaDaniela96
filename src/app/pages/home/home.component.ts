@@ -18,7 +18,7 @@ export class HomeComponent {
     // },
     {
       title: 'DependeBlog',
-      body: 'Depende es un proyecto personal en el que he trabajado con amistades y colegas para crear un espacio de difusión cultural y otros saberes. En este caso te compartó mi código en github para que le pongas un vistazo. ',
+      body: 'Depende es un proyecto personal en el que he trabajado con amistades y colegas para crear un espacio de difusión cultural y otros saberes. En este caso te compartó mi código en github para que le des un vistazo.',
       link: 'https://github.com/AnaDaniela96/BLOG-DEPENDE'
     },
     // {
@@ -32,8 +32,8 @@ export class HomeComponent {
     //   link: 'https://github.com/AnaDaniela96/trivia'
     // },
     {
-      title: 'TestAirport',
-      body: 'Este proyecto se creo para demostrar mis habilidades con apis publicas. Test airport muestra en tiempo real el nombre y la ubicación de los aereopuertos del mundo utilizando la API pública AMADEUS.',
+      title: 'DataBase DependeBlog',
+      body: 'Este bebé es la parte trasera de DependeBlog. Mi mayor orgullo hasta ahora porque me ánime a trabajar con un proyecto de back. En este repo encontrarás la documentación de mi base de datos.',
       link: 'https://github.com/AnaDaniela96/airtport-news'
     },
   ];
