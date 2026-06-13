@@ -1,8 +1,8 @@
 
 #header-container {
-  background-image: url('/assets/Website.svg');
-  color: var(--bg-main);
-  padding-top: 280px;
+  background-image: url('/assets/FONDO.svg');
+  color: var(--text-main);
+  padding-top: 150px;
   padding-bottom: 20px;
   height: 600px;
 }
@@ -15,18 +15,18 @@
 }
 
 .title-span {
-  color: var(--bg-section);
+  color: var(--text-main);
 }
 
 .container-resume {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .resume {
   font-size: 1.05rem;
   font-weight: 300;
   line-height: 1.8;
-  color: var(--bg-section);
+  color: var(--text-main);
   max-width: 520px;
   margin-left: auto;
 }
