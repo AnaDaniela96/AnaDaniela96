@@ -356,8 +356,8 @@ main image {
     font-size: 1rem;
   }
 
-  main img {
-    width: 320px;
+  .photo-cv {
+    height: 320px;
   }
 
   .section-title,
