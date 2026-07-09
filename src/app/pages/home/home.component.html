@@ -1,7 +1,7 @@
 <app-header backGroundColor="#a5121a"></app-header>
 
 <!-- HERO -->
-<div class="container-fluid header-container" id="">
+<aside class="container-fluid header-container" id="">
   <div class="d-flex flex-column container-resume">
     <h1 class="title text-center p-3 mx-3">
       Hola, gracias por darle clic :)<br>
@@ -12,26 +12,20 @@
 
     </p>
   </div>
-</div>
-<div class="container-fluid" id="contact-container">
-  <img src="/assets/FONDO-NEW.svg" alt="" />
-</div>
+</aside>
+<main class="container-fluid">
+  <div class="container">
+    <div class="d-flex flex-column">
+      <img src="assets/daniela-and-lola.svg" class="img-fluid photo-cv">
 
-
-
-
-<!-- HERO / FOTO / CTA / REDES -->
-<div class="container-fluid" id="contact-container">
-  <!-- <img src="/assets/FONDO-NEW.svg" alt="" /> -->
-
-  <div class="row align-items-end">
-    <div class="col-md-4" id="container-photo">
-      <div class="img-container mx-4">
-        <img src="assets/daniela-cv-800.png" alt="Daniela Andrade" class="img-fluid photo-cv">
-      </div>
+      <h2 class="p-3 text-center">Esto solía ser un portafolio, pero ahora mismo tengo más interés en escribir y contar
+        cosas.</h2>
     </div>
+  </div>
 
-    <div class="col-md-4" id="container-contact">
+  <!-- HERO / FOTO / CTA / REDES -->
+  <div class="row align-items-end py-4">
+    <div class="col-md-6" id="container-contact">
       <div class="cta-group">
         <a href="/about" class="contact primary-cta">
           Está mi historia <i class='bx bx-right-arrow-circle'></i>
@@ -42,7 +36,7 @@
       </div>
     </div>
 
-    <div class="col-md-4" id="container-social-media">
+    <div class="col-md-6" id="container-social-media">
       <div class="social-group">
         <h2 class="contact social-title">Redes</h2>
         <div class="social-icons">
@@ -61,7 +55,7 @@
       </div>
     </div>
   </div>
-</div>
+</main>
 
 <!-- EXPLORA -->
 <div class="container-fluid" id="container-explore">
@@ -81,7 +75,15 @@
       <a href="/about" class="contact primary-cta">
         Suscríbete a mi canal <i class='bx bx-right-arrow-circle'></i>
       </a>
+    </div>
 
+    <div class="col-md-12 text-center">
+      <iframe 
+      class="responsive-video" 
+        src="https://www.youtube.com/embed/uUs6QI4ItNA?si=Wv_zrPAs4SHoA-Ej"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
 </div>

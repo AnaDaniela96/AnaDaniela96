@@ -2,18 +2,23 @@ body {
     font-family: "Quicksand", serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .text-justify {
     text-align: justify;
 }
 
 :root {
   --bg-main: #0f0f10;
-  --bg-section: #16181d;
+  --bg-section: #a5121a;
   --text-main: #f3e9e2;
   --text-soft: #d7c7bd;
   --accent-primary: #6ea8fe;
-  --accent-secondary: #c97b84;
-  --card-bg: #22252c;
+  --accent-secondary: #f89ec2;
+  --card-bg: #f89ec2;
 }
 
 .homemade-apple-regular {

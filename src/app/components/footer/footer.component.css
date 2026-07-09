@@ -4,7 +4,7 @@ footer {
 }
 
 .container-fluid {
-    background-color: #372549;
+    background-color: var(--bg-section);
     color: #eacdc2;
     margin-bottom: 0;
     padding-bottom: 0;
