@@ -15,3 +15,9 @@ body {
   --accent-secondary: #c97b84;
   --card-bg: #22252c;
 }
+
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
