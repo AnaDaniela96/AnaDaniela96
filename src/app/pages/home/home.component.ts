@@ -18,7 +18,7 @@ export class HomeComponent {
     // },
     {
       title: 'DependeBlog',
-      body: 'Depende es un proyecto personal en el que he trabajado con amistades y colegas para crear un espacio de difusión cultural y otros saberes. En este caso te compartó mi código en github para que le des un vistazo.',
+      body: 'Aquí escribo sobre temas diversos, comparto el contenido de los guiones, parte de mis lecturas, reseñas de películas o libros y cualquier cosa que no sepa donde guardar. Usé REACT como framework y lo conectó con mi bd que por ahora se renderiza en un programa de código abierto en Linux cuyo nombre olvide je..',
       link: 'https://github.com/AnaDaniela96/BLOG-DEPENDE'
     },
     // {
