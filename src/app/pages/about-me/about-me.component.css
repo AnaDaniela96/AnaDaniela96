@@ -1,10 +1,10 @@
 #container-presentation {
     padding-top: 100px;
-    background-color: #774c60;
+    background-color: #a5121a;
     color: #eacdc2;
 
     .hr {
-        color: #eacdc2;
+        color:  #0f0f10;
         border: solid 2px;
     }
 
@@ -24,7 +24,7 @@
 }
 
 .span {
-    color: #b75d69;
+    color:  #0f0f10;;
 }
 
 #text-title {
